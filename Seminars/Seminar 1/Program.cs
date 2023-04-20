@@ -39,7 +39,7 @@
 
 //Task #4. На вход принимаем 3 значное число, вывести последнюю цифру данного числа.
 
-Console.WriteLine("input three-digit number:");
-int n = Convert.ToInt32(Console.ReadLine());
-// int ed = n % 10;
-Console.WriteLine($"last digit of {n} = {n%10}");
+// Console.WriteLine("input three-digit number:");
+// int n = Convert.ToInt32(Console.ReadLine());
+// // int ed = n % 10;
+// Console.WriteLine($"last digit of {n} = {n%10}");
