@@ -60,3 +60,44 @@
 //     return array;
 // }
 
+//Задача 3.Задайте массив. Напишите программу, которая определяет, присутствует ли заданное число в массиве.
+
+// int [] CreateArray (int size)
+// {
+// int [] array = new int [size];
+// for (int i =0; i < size; i++)
+// {
+// Console.Write($"Введите число элемента массива {i} ");
+// array[i] = Convert.ToInt32(Console.ReadLine());
+// }
+// return array;
+// }
+
+// bool NumFind(int num, int[] array)
+// {
+// for(int i = 0; i< array.Length; i++)
+// {
+// if(array[i] == num) return true;
+// }
+// return false;
+// }
+
+//Задача 4.****Задайте одномерный массив из 123 случайных чисел. Найдите количество элементов массива,
+//значения которых лежат в отрезке [10,99].
+
+//*Пример для массива из 5, а не 123 элементов. В своём решении сделайте для 123*
+
+// int NumFind2(int[] array)
+// {
+// int count = 0;
+// for(int i = 0; i< array.Length; i++)
+// {
+// if(array[i] <= 99 && array[i] > 10) count++;
+// }
+// return count;
+// }
+
+// int [] myArray = CreateRandomArray(12,1,150);
+
+// PrintArray(myArray);
+// Console.WriteLine(NumFind2(myArray));
